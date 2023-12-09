@@ -1,5 +1,4 @@
 import Calculator
-
 def test_addition():
     assert Calculator.add(1,2) == 3
 def test_subtraction():
