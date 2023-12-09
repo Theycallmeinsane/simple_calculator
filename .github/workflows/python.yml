@@ -15,9 +15,6 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Create an empty requirements.txt file
-      run: echo > requirements.txt
-
     - name: Install pytest
       run: |
         python -m pip install --upgrade pip
